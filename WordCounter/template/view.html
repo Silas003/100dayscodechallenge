@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div>
+        {% if model %}
+           
+            <table>
+                <thead>
+                    <tr>
+                        <th>name</th>
+                        <th>words</th>
+                        <th>counnter</th>
+                        <th>action</th>
+                    </tr>
+                   
+
+                </thead>
+                {% for mod in model%}
+                <tr>
+                    <td>{{mod.name}}</td>
+                    <td>{{mod.words}}</td>
+                    <td>{{mod.counter}}</td>
+                    <td><a href="{% url 'delete' mod.id%}">Delete</a></td>
+                </tr>
+                {%endfor%}
+            </table>
+        
+           
+            {% else %}
+                <h3>Type something for it to be counted...</h3>
+        {% endif %}
+
+    </div>
+   
+</body>
+</html>

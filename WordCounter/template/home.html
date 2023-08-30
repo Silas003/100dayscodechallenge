@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST"  action="">
+        {%csrf_token%}
+        <h2>Your name:</h2>
+        <input type="text" name="name" aria-multiline="true">
+        <h2>Type in what you want to me counted:</h2>
+        <input type="text" name="message" aria-multiline="true">
+      <input type="submit">
+    </form>
+    {%  if counter%}
+   <h4>You typed {{counter}} characters</h4>
+        {%else%}
+        <h3>Type something to be counted...</h3>
+    {% endif %}
+</body>
+{% if counter %}
+<h3>Click to view words counted</h3>
+<a href="{% url 'view'%}">View</a>
+{% endif %}
+</html>
