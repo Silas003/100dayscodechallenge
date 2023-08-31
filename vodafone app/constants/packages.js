@@ -1,22 +1,28 @@
 import * as Icon from 'react-native-feather'
 export const packages=[
     {
-        id:1,
+        id:'wcffxsf',
         name:'Data',
-        icon:[<Icon.ArrowDown/>,<Icon.ArrowUp/>],
-        value:'62.GB'
+        icon:<Icon.BarChart stroke={'red'}/>,
+        value:62,
+        total:100,
+        meter:'Gb'
     },
     {
-        id:2,
+        id:'adgasgaxcadzfc',
         name:'Offnet',
-        icon:<Icon.PhoneCall/>,
-        value:'26.98Mins',
+        icon:<Icon.Phone stroke={'red'}/>,
+        value:26.98,
+        total:40,
+        meter:'Mins'
     },
     {
-        id:3,
+        id:'rfcwefxzawefac',
         name:'SMS',
-        icon:<Icon.MessageSquare/>,
-        value:'50.0'
+        icon:<Icon.MessageSquare stroke={'red'}/>,
+        value:50.0,
+        total:50,
+        meter:'SMS'
     }
 
 ]

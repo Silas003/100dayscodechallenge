@@ -1,32 +1,53 @@
+import * as Icon from 'react-native-feather'
+import * as Icon2 from 'react-native-vector-icons'
 export const Service=[
     {
-        id:1,
+        id:'12werere',
         name:'My Subscription',
-        screen:'Subscription'
-    },  {
-        id:2,
-        name:'My Subscription',
-        screen:'Subscription'
+        screen:'Subscription',
+        icon:<Icon.Smartphone stroke={'black'}/>
+    }, 
+    {
+        id:'13123fsdfsdfd',
+        name:'Fixed Broadband',
+        screen:'Subscription',
+        icon:<Icon.Wifi stroke={'black'}/>
     },
     {
-        id:3,
-        name:'My Subscription',
-        screen:'Subscription'
+        id:'4t3fwrc4rfgcdffc',
+        name:'Valued-Added Service',
+        screen:'Subscription',
+        icon:<Icon.Smartphone stroke={'black'}/>
     },
     {
-        id:4,
-        name:'My Subscription',
-        screen:'Subscription'
+        id:'412cesrt2wtesrtdrfvcrydtgvcyftyvfca',
+        name:'Check SIM Reg Status',
+        screen:'Subscription',
+        icon:<Icon2 name='sim' />
     },
     {
-        id:5,
-        name:'My Subscription',
-        screen:'Subscription'
+        id:'4tvertcxsrctdfcdygjhvsevcdtxrcdf',
+        name:'My Notifications',
+        screen:'Subscription',
+        icon:<Icon.MessageSquare stroke={'black'}/>
     },
      {
-        id:6,
-        name:'My Subscription',
-        screen:'Subscription'
+        id:'wercwtghdgfx',
+        name:'Red Loyalty',
+        screen:'Subscription',
+        icon:<Icon.Wifi stroke={'black'}/>
+    },
+    {
+        id:'acfrgctrdrgcerdtftf',
+        name:'NetPerform',
+        screen:'Subscription',
+        icon:<Icon.Wifi stroke={'black'}/>
+    },
+    {
+        id:'ac3csgdhvdgchgfvd',
+        name:'Setttings',
+        screen:'Subscription',
+        icon:<Icon.Wifi stroke={'black'}/>
     },
 
 ]
