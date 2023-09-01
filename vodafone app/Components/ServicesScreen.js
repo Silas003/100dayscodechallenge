@@ -19,7 +19,7 @@ const ServicesScreen = () => {
         <View style={styles.headerCon}>
           <Image source={require('../assets/Images/voda1.png')}
           style={{height:30,width:30,borderRadius:60}}/>
-          <Text style={{fontWeight:'600',fontSize:16,marginRight:10}}>Good morning,Silas</Text>
+          <Text style={{fontWeight:'600',fontSize:16,marginRight:10,color:'white'}}>Good morning,Silas</Text>
         </View>  
       </View>
       <View style={styles.body}>

@@ -1,7 +1,7 @@
 import * as Icon from 'react-native-feather'
 export const packages=[
     {
-        id:'wcffxsf',
+        id:1,
         name:'Data',
         icon:<Icon.BarChart stroke={'red'}/>,
         value:62,
@@ -9,7 +9,7 @@ export const packages=[
         meter:'Gb'
     },
     {
-        id:'adgasgaxcadzfc',
+        id:2,
         name:'Offnet',
         icon:<Icon.Phone stroke={'red'}/>,
         value:26.98,
@@ -17,7 +17,7 @@ export const packages=[
         meter:'Mins'
     },
     {
-        id:'rfcwefxzawefac',
+        id:3,
         name:'SMS',
         icon:<Icon.MessageSquare stroke={'red'}/>,
         value:50.0,

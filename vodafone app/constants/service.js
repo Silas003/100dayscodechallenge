@@ -2,49 +2,49 @@ import * as Icon from 'react-native-feather'
 import * as Icon2 from 'react-native-vector-icons'
 export const Service=[
     {
-        id:'12werere',
+        id:1,
         name:'My Subscription',
         screen:'Subscription',
         icon:<Icon.Smartphone stroke={'black'}/>
     }, 
     {
-        id:'13123fsdfsdfd',
+        id:2,
         name:'Fixed Broadband',
         screen:'Subscription',
         icon:<Icon.Wifi stroke={'black'}/>
     },
     {
-        id:'4t3fwrc4rfgcdffc',
+        id:3,
         name:'Valued-Added Service',
         screen:'Subscription',
         icon:<Icon.Smartphone stroke={'black'}/>
     },
     {
-        id:'412cesrt2wtesrtdrfvcrydtgvcyftyvfca',
+        id:4,
         name:'Check SIM Reg Status',
         screen:'Subscription',
         icon:<Icon2 name='sim' />
     },
     {
-        id:'4tvertcxsrctdfcdygjhvsevcdtxrcdf',
+        id:5,
         name:'My Notifications',
         screen:'Subscription',
         icon:<Icon.MessageSquare stroke={'black'}/>
     },
      {
-        id:'wercwtghdgfx',
+        id:6,
         name:'Red Loyalty',
         screen:'Subscription',
         icon:<Icon.Wifi stroke={'black'}/>
     },
     {
-        id:'acfrgctrdrgcerdtftf',
+        id:7,
         name:'NetPerform',
         screen:'Subscription',
         icon:<Icon.Wifi stroke={'black'}/>
     },
     {
-        id:'ac3csgdhvdgchgfvd',
+        id:8,
         name:'Setttings',
         screen:'Subscription',
         icon:<Icon.Wifi stroke={'black'}/>
